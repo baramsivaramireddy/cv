@@ -14,9 +14,20 @@ hr
 h1
 {
     color: #e92806;
-    font-size: 69px ; 
+    font-size: 100px ; 
     font-family: 'Dancing Script', cursive;
 }
 h2,h3{
     color: #f31270;
+}
+.header
+{
+    background-color:black;
+
+}
+ img
+{
+
+    border-style: solid;
+    border-radius: 10px 100px / 120px;
 }
