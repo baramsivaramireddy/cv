@@ -1,33 +1,36 @@
-body
-{
-    margin: auto;
-    background-color:#9ed4ec;
-
-}
-hr
-{
-    border-style:dotted none none none ;
-   border-top-width: 1px; 
-   width: 30%;
-}
-
-h1
-{
-    color: #e92806;
-    font-size: 100px ; 
-    font-family: 'Dancing Script', cursive;
-}
-h2,h3{
-    color: #f31270;
+body{
+    background-color: #070706e1;
 }
 .header
 {
-    background-color:black;
+
+display: flex;
+margin-top: 15%;
+margin-left: 30%;
+}
+
+.mainpic img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
 
 }
- img
+.mainheading
 {
+color: #e4e2e2b7;
+margin-left: 5%;
+}  
+.mainheading h1
+{
+    
+    margin-bottom: 0px;
+font-size: 4em;
+font-family: sans-serif;
 
-    border-style: solid;
-    border-radius: 10px 100px / 120px;
+}
+.mainheading p
+{    margin: 0;
+    
+    display: inline;
+    font-family: serif;
 }
