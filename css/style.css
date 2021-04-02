@@ -46,7 +46,7 @@ hr
 {
     width: 30%;
     border-style: none;
-    border-top-style: dashed;
+    border-top-style: dasheds;
     border-width: 5px;
     border-color: lightgrey;
 }
