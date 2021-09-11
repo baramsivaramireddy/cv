@@ -1,101 +1,25 @@
-body{
-    display: grid;
-    background-color: lightcyan;
-}
-.header,.middle
-{
+h1{
+    color:white
 
-
-margin-top: 1%;
-margin-left: 30%;
-color: black;
 }
- 
-.mainpic img{
-    margin: 0 auto;
-    width: 180px;
-    height: 180px;
+
+body {
+    background-color: black;
+}
+
+.center {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+  }
+img {
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    
-
-}
-.mainheading
-{
-margin-left: 5%;
-font-size: 2rem;
-
-}  
-.mainheading h1
-{
- margin: 0;   
-margin-bottom: 0px;
-font-size: 5rem;
-font-family: serif;
-
-}
-.mainheading p
-{    margin: 0;
-    
-    display: inline;
-    font-family: serif;
-}
-.middle
-{
-display: grid;
-}
-hr
-{
-    width:25%;
-    margin-left: 27%;
-    border-style: none;
-    border-top-style: dashed;
-    border-width: 5px;
-    border-color: lightgrey;
-}
-.projectscontainer
-{
-display:flex;
-}
-.animate,.futureproject
-{
-margin:1rem;
-color:white;
-width:50%;
-height:50%;
-background-color:black;
-display:inline-block;
-text-indent:center;	
-}
-h1
-{
-color:red;
-font-size:2rem;
-width:30%;
-margin:0 auto;                   
-}
-.projectlink
-{   display: inline;
-    background-color: gray;
-    font-family: serif;
-    padding: 3%;
-    font-size: 1rem;
-    border: solid 1px;
-    border-radius: 5%;
-    margin: 0 auto;
-}
-.footer
-{  margin-left: 30%;
-
-
-}
-.social-icon
-{
-    display: inline-block;
-
-}
-.social-icon li 
-{     background-color: indigo;
-    width: 2rem;
-    height: 2rem;
-
 }
